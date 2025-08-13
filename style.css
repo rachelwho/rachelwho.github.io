@@ -1,4 +1,4 @@
-/* Card container for photo + info */
+/* Container for header card */
 .header-card {
     display: flex;
     align-items: center;
@@ -12,7 +12,18 @@
     max-width: 900px;
 }
 
-/* Profile photo styling */
+/* Text area — now on the left */
+.header-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Reverse order on desktop to put image on right */
+.header-card {
+    flex-direction: row;
+}
+
+/* Profile photo on the right side */
 .profile-photo {
     width: 220px;
     height: 220px;
@@ -20,16 +31,7 @@
     object-fit: cover;
 }
 
-/* Text next to photo */
-.header-text {
-    max-width: 500px;
-}
-
-.header-text h2 {
-    margin-top: 0;
-}
-
-/* CV button styling */
+/* Button styling */
 .cv-button {
     display: inline-block;
     margin-top: 15px;
@@ -44,10 +46,13 @@
     background: #0a9396;
 }
 
-/* Responsive behavior */
+/* Mobile layout: stack with text above photo */
 @media (max-width: 700px) {
     .header-card {
         flex-direction: column;
         text-align: center;
+    }
+    .header-text {
+        margin-bottom: 20px;
     }
 }
