@@ -1,10 +1,75 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qiuyun Zhu - Academic Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-Hello world!
 
+<header>
+    <div class="nav-container">
+        <h1 class="site-title">Qiuyun Zhu</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="assets/CV.pdf" target="_blank">CV</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-content">
+        <img src="assets/profile.jpg" alt="Profile photo" class="profile-photo">
+        <h2>Faragher Distinguished Postdoctoral Fellow<br>School of Statistics, University of Minnesota</h2>
+        <a href="assets/CV.pdf" class="cv-button" target="_blank">Download CV</a>
+    </div>
+</header>
 
-<a href="./pdfs/CV.pdf">CV</a>
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My research revolves around the intersection between machine learning and statistics. My recent research focuses on the design and analysis of deep learning models and algorithms, such as diffusion models and algorithm unrolling networks. Other topics that interest me include multi-armed bandit, change-point detection, Bayesian inference, and Markov Chain Monte Carlo (MCMC).</p>
+    </section>
+
+    <section id="research">
+        <h2>Research & Publications</h2>
+        <ul>
+            <li><b>Zhu, Q.</b>, & Atchadé, Y. (2024). Minimax Quasi-Bayesian Estimation in Sparse Canonical Correlation Analysis via a Rayleigh Quotient Function. <i>Journal of American Statistical Association</i>, to appear, 2024.</li>
+            <li>Zhao, R., & <b>Zhu, Q.</b> (2023). A Generalized Frank-Wolfe Method With “Dual Averaging” for Strongly Convex Composite Optimization. <i>Optimization Letters</i>, 17(7), 1595–1611.</li>
+            <li><b>Zhu, Q.</b>, & Shen, X. (2025). Statistical Analysis of Discrete Diffusion Models. In preparation.</li>
+            <li><b>Zhu, Q.</b>, & Doss, C. (2025). Multi-Stream Change-Point Detection From a Multi-Armed Bandit Perspective. In preparation.</li>
+            <li>Atchadé, Y., Liu, X., & <b>Zhu, Q.</b> (2023). A Statistical Perspective on Algorithm Unrolling Models for Inverse Problems. Major revision with <i>Journal of Machine Learning Research</i>.</li>
+        </ul>
+    </section>
+
+    <section id="teaching">
+        <h2>Teaching</h2>
+        <ul>
+            <li>MA 681 – Accelerated Introduction to Statistical Methods for Quantitative Research (Fall 2022)</li>
+            <li>MA 581 – Probability (Fall 2021)</li>
+            <li>MA 576 – Generalized Linear Models (Spring 2021)</li>
+            <li>MA 121 – Calculus for the Life and Social Sciences I (Fall 2019)</li>
+            <li>MA 589 – Computational Statistics (Fall 2019)</li>
+            <li>MA 585 – Time Series and Forecasting (Spring 2019)</li>
+            <li>MA 411 – Advanced Calculus (Fall 2018)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:qzhu@umn.edu">qzhu@umn.edu</a></p>
+        <p>School of Statistics, University of Minnesota<br>
+           368 Ford Hall, 224 Church Street SE<br>
+           Minneapolis, MN 55455, USA</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Qiuyun Zhu</p>
+</footer>
+
 </body>
 </html>
