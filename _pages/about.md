@@ -1,4 +1,4 @@
-Abount me
+About me
 ======
 I am an assitant professor in the department of Statistics and Actuarial Science at the University of Iowa. Previously, I was a Faragher distinguished postdoctoral fellow at IRSA in University of Minnesota. My research lies in theory and computational practice of high-dimensional statistics, Bayesian inference and optimization, with applications in machine learning, data science and game theory. I am currently working on topics including: inverse problems, MCMC, change-point detection and diffusion models.
 
