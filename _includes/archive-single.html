@@ -34,12 +34,12 @@
       {% endif %}
     </h2>
 
-    {% if page.authors %}
+    {% if post.authors %}
   <p>
-    {% if page.authors.size > 1 %}
-      {{ page.authors | join: ", " }}
+    {% if post.authors.size > 1 %}
+      {{ post.authors | join: ", " }}
     {% else %}
-      {{ page.authors }}
+      {{ post.authors }}
     {% endif %}
   </p>
 {% endif %}
