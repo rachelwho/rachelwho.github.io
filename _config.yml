@@ -25,10 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Qiuyun Zhu"
   pronouns         : "she/her"  
-  bio              : "
-Family name: **Zhu (朱)** — pronounced like “Joo”  
-<br>
-Given name: **Qiuyun (秋云)** — pronounced like “Chyo-yoon” "
+  bio              : " name_pronunciation: Joo Chyo-yoon"
   location         : "211 Shaeffer Hall"
   employer         : "University of Iowa"
   uri              : "https://stat.uiowa.edu/people/qiuyun-zhu"
@@ -360,3 +357,10 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+    
+# Name pronunciation settings
+name_pronunciation:
+  phonetic: "Joo Chyo-yoon"
+  chinese: "朱秋云"
+  audio: #
